@@ -24,7 +24,6 @@ while my_condition < 20:
 print("La ejecución continúa")
 
 # For
-
 my_list = [35, 24, 62, 52, 30, 30, 17]
 
 for element in my_list:

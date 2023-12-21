@@ -14,22 +14,22 @@ my_list = [35, 24, 62, 52, 30, 30, 17]
 print(my_list)
 print(len(my_list))
 
-my_other_list = [35, 1.77, "Brais", "Moure"]
+my_other_list = [35, 1.77, "Michael", "Castillo"]
 
 print(type(my_list))
 print(type(my_other_list))
 
+
+#_________________________________________________________________________
 # Acceso a elementos y búsqueda
-
-print(my_other_list[0])
-print(my_other_list[1])
-print(my_other_list[-1])
-print(my_other_list[-4])
-print(my_list.count(30))
+print(my_other_list[0]) #35
+print(my_other_list[1]) #1.77
+print(my_other_list[-1]) #Castillo
+print(my_other_list[-4]) #35
+# print(my_other_list[-5]) #Error, no hay esa cantidad de elementos en la lista.
 # print(my_other_list[4]) IndexError
-# print(my_other_list[-5]) IndexError
-
-print(my_other_list.index("Brais"))
+print(my_list.count(30))
+print(my_other_list.index("Michael"))
 
 age, height, name, surname = my_other_list
 print(name)
@@ -44,19 +44,19 @@ print(my_list + my_other_list)
 
 # Creación, inserción, actualización y eliminación
 
-my_other_list.append("MoureDev")
+my_other_list.append("Athenas") #Inserta al final de la lista
 print(my_other_list)
 
-my_other_list.insert(1, "Rojo")
+my_other_list.insert(1, "Rojo") #Se dice la posición y se inserta
 print(my_other_list)
 
-my_other_list[1] = "Azul"
+my_other_list[1] = "Azul" #Se sobreescribe lo que hay en la posición
 print(my_other_list)
 
-my_other_list.remove("Azul")
+my_other_list.remove("Azul") #Remueva la palabra que coincide
 print(my_other_list)
 
-my_list.remove(30)
+my_list.remove(30) # Remueve el primer valor encontrado
 print(my_list)
 
 print(my_list.pop())

@@ -11,7 +11,7 @@ if my_condition:  # Es lo mismo que if my_condition == True:
 
 my_condition = 5 * 5
 
-if my_condition == 10:
+if my_condition == 25:
     print("Se ejecuta la condición del segundo if")
 
 # if, elif, else
