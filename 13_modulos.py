@@ -1,22 +1,16 @@
-# Clase en vídeo: https://youtu.be/Kp4Mvapo5kc?t=34583
-
 ### Modules ###
 
-from math import pi as PI_VALUE
+import modules
+modules.multiplicacion(2,4)
+modules.sumatoria(10,587)
+#los import no reciben archivos que su primer caracter sea un número
+from modules import multiplicacion, sumatoria
+multiplicacion(2,5)
+sumatoria(5,10)
+
 import math
-from my_module import sumValue, printValue
-import my_module
-
-my_module.sumValue(5, 3, 1)
-my_module.printValue("Hola Python!")
-
-
-sumValue(5, 3, 1)
-printValue("Hola python")
-
-
 print(math.pi)
-print(math.pow(2, 8))
 
+from math import pi as pi_valor
 
-print(PI_VALUE)
+print(pi_valor*2)
